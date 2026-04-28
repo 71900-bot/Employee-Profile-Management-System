@@ -3,7 +3,7 @@ import './App.css';
 import myLogo from './images/PeopleHub.png'; 
 
 // ── Config ──────────────────────────────────────────────────────────────────
-const API_URL = 'http://localhost/PHP-EmpProfile/backend/api.php'; // PHP path
+const API_URL = 'http://employee-profile-system.infinityfreeapp.com/backend/api.php'; // PHP path
 
 const DEPARTMENTS = [
   'Engineering','Marketing','Sales','Human Resources',
