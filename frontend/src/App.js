@@ -3,7 +3,7 @@ import './App.css';
 import myLogo from './images/PeopleHub.png'; 
 
 // ── Config ──────────────────────────────────────────────────────────────────
-const API_URL = 'http://localhost/PHP-EmpProfile/backend/api.php'; // PHP path
+const API_URL = 'https://employee-profile-management-system.netlify.app/api.php''; // PHP path
 
 const DEPARTMENTS = [
   'Engineering','Marketing','Sales','Human Resources',
