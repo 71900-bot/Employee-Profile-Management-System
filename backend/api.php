@@ -194,7 +194,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_GET['action']) && $_GET['ac
     $filename = uniqid('photo_') . '.' . $ext;
     move_uploaded_file($_FILES['photo']['tmp_name'], $uploadDir . $filename);
 
-    respond(['success' => true, 'url' => 'http://localhost/PHP-EmpProfile/backend/uploads/' . $filename]);
+    respond(['success' => true, 'url' => 'https://employee-profile-management-system.rf.gd/backend/uploads/' . $filename]);
 }
 
 # ─── Route: GET /api.php to list all employees ──────────────────────────────
