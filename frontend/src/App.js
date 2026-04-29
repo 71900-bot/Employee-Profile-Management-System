@@ -3,7 +3,7 @@ import './App.css';
 import myLogo from './images/PeopleHub.png'; 
 
 // ── Config ──────────────────────────────────────────────────────────────────
-const API_URL = '/api/api.php'; // PHP path
+const API_URL = 'https://employee-profile-management-system.rf.gd/backend/api.php'; // PHP path
 
 const DEPARTMENTS = [
   'Engineering','Marketing','Sales','Human Resources',
